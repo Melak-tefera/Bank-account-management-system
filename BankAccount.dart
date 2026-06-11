@@ -6,6 +6,8 @@ void main() {
   account1.withdraw(100.0);
   account1.displayInfo();  
   BankAccount.printTotalAccounts();
+  acccount2.deposit(400.0);
+  acccount2.displayInfo();
 }
 
 class BankAccount{
